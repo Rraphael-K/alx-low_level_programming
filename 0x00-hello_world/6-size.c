@@ -15,8 +15,8 @@ int main(void)
 	double numD = 2;
 	float fnum = 0.0;
 
-	printf("Size of a char: %ld-byte(s)\n", sizeof(ch));
-	printf("Size of an int: %ld-byte(s)\n", sizeof(num));
-	printf("Size of a long int: %ld-byte(s)\n", sizeof(numD));
-	printf("Size of a float: %ld-byte(s)\n", sizeof(fnum));
+	printf("Size of a char: %ld byte(s)\n", sizeof(ch));
+	printf("Size of an int: %ld byte(s)\n", sizeof(num));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(numD));
+	printf("Size of a float: %ld byte(s)\n", sizeof(fnum));
 }
