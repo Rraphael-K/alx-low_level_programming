@@ -9,7 +9,6 @@
 int main(void)
 {
 	/*declaring data types */
-
 	char ch;
 	int num;
 	long numL;
@@ -21,6 +20,5 @@ int main(void)
 	printf("Size of a long int: %ld byte(s)\n", sizeof(numL));
 	printf("Size of a long long int: %ld byte(s)\n", sizeof(LnumL));
 	printf("Size of a float: %ld byte(s)\n", sizeof(fnum));
-	
 	return (0);
 }
