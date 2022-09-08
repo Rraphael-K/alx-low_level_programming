@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*
- * using the puts fuction
- * not using printf
- * in order to display strings
+/**
+ * main - Entry point
+ *
+ * Description: 'First code'
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
