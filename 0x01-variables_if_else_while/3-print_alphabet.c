@@ -13,15 +13,11 @@ int main(void)
 	char alphaL;
 	char alphaC;
 
-	/*
-	 * Display all the letters of the alphabet
-	 * do this while until z
-	 */
-	for (alphaL = 'a'; alphaL <= 'z'; alphaL++)
-	       putchar(alphaL);
+	for (alphaL = 'a'; alphaL <= 'z'; alpha++)
+		putchar(alphaL);
 	for (alphaC = 'A'; alphaC <= 'Z'; alphaC++)
 		putchar(alphaC);
-	putchar('\n');	
+	putchar('\n');
 
 	return (0);
 }
