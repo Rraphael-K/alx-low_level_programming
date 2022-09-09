@@ -17,11 +17,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/* your code goes there */
-	/* generate the last digit
-	 * of a random number 
-	 * and display the last digit of a random number
-	 */
+	/* generate a random number and display the last digit of a random number */
 	int l_digit = n % 10;
 
 	if (l_digit > 5)
@@ -31,9 +27,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l_digit);
 	} else
-	{
-		printf("Last digit of %d is %d and is 0\n", n, l_digit);
-	}
+		printf("Last digit of % d is %d and is 0\n", n, l_digit);
 	return (0);
 }
 
