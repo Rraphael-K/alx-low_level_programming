@@ -20,8 +20,9 @@ int main(void)
 			/* print a comma and a space before the next combo */
 			putchar(',');
 			putchar(' ');
-		}	
-	 } /* create anew line */
+		}
+	}
+	/* create anew line */
 	putchar('\n');
 	return (0);
 }
