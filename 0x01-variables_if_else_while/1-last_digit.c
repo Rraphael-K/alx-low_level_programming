@@ -18,7 +18,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* your code goes there */
-	/* display the last digit of a random number */
+	/* generate the last digit
+	 * of a random number 
+	 * and display the last digit of a random number
+	 */
 	int l_digit = n % 10;
 
 	if (l_digit > 5)
