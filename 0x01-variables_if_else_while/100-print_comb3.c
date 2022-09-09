@@ -14,7 +14,7 @@ int main(void)
 	for (fnum = '0'; fnum <= '9'; fnum++)
 	{
 		/*generate second number for combination */
-		for (sNum = '0'; sNum <= '9'; sNum++)
+		for (sNum = fnum + 1; sNum <= '9'; sNum++)
 		{
 			/* ensure numbers combined are not the same */
 			if (fnum  != sNum)
