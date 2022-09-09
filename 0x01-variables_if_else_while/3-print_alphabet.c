@@ -21,7 +21,7 @@ int main(void)
 	       putchar(alphaL);
 	for (alphaC = 'A'; alphaC <= 'Z'; alphaC++)
 		putchar(alphaC);
-		putchar('\n');	
+	putchar('\n');	
 
 	return (0);
 }
