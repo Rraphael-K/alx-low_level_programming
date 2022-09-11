@@ -11,11 +11,12 @@ int main(void)
 	int fNum, sNum;
 
 	/* create the number combination */
-	for (fNum = 0; fNum = 98; fNUm++)
+	for (fNum = 0; fNum <= 98; fNum++)
 	{
 		for (sNum = fNum + 1; sNum <= 99; sNum++)
 		{
-			/* print the combined numbers 
+			/*
+			 * print the combined numbers
 			 * add a char 0 to replace the automatically generate 0's
 			 */
 			putchar((fNum / 10) + '0');
