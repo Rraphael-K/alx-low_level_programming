@@ -19,7 +19,7 @@ int main(void)
 			for (Tnum = sNum + 1; Tnum <= '9'; Tnum++)
 			{
 				/* ensure numbers combined are not the same */
-				if (fnum  != sNum)
+				if ((sNum != fnum)  != Tnum)
 				{
 					/*Print out the combination */
 					putchar(fnum);
@@ -27,13 +27,15 @@ int main(void)
 					putchar(Tnum);
 					/**
 					 * ensure that the numbers combinations
-					 * do not go beyond 8 and 9
-					 * end the loop once 99 is reached
+					 * do not go beyond 7 and 8
+					 * end the loop once 789 is reached
 					 */
-					if (fnum == '8' && sNum == '9' && Tnum == '8')
+					if (fnum == '7' && sNum == '8')
 						continue;
+					
 					putchar(',');
 					putchar(' ');
+
 				}
 			}
 		}
