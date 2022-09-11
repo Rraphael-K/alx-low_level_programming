@@ -26,7 +26,7 @@ int main(void)
 			 */
 			putchar((fnum / 10) + '0');
 			putchar(fnum % 10 + '0');
-			/* add a space to seperate the number combination */
+			/* add a space to seperate the number combination*/
 			putchar(' ');
 			putchar(sNum / 10 + '0');
 			putchar(sNum % 10 + '0');
