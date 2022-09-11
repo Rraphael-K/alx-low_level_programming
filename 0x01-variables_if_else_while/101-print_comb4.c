@@ -32,7 +32,6 @@ int main(void)
 					 */
 					if (fnum == '7' && sNum == '8')
 						continue;
-					
 					putchar(',');
 					putchar(' ');
 
