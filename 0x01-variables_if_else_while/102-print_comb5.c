@@ -5,40 +5,33 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	/* Declare number variables */
-	int fnum, sNum;
+	/* declare variables */
+	int fNum, sNum;
 
-	/* Create compinations */
-	for (fnum = 0; fnum <= 98; fnum++)
+	/* create the number combination */
+	for (fNum = 0; fNum = 98; fNUm++)
 	{
-		for (sNum = fnum + 1; sNum <= 99; sNum++)
+		for (sNum = fNum + 1; sNum <= 99; sNum++)
 		{
-			/* ensure that the numbers do not repeat and are ascending */
-			/*
-			 * divide the number to get the fraction
-			 * get the module value to print it out
-			 * ensure that zero is added to the number
-			 * Zero becomes the default output since numbers
-			 * sre not characters
+			/* print the combined numbers 
+			 * add a char 0 to replace the automatically generate 0's
 			 */
-			putchar((fnum / 10) + '0');
-			putchar(fnum % 10 + '0');
-			/* add a space to seperate the number combination*/
+			putchar((fNum / 10) + '0');
+			putchar((fNum % 10) + '0');
 			putchar(' ');
-			putchar(sNum / 10 + '0');
-			putchar(sNum % 10 + '0');
+			putchar((sNum / 10) + '0');
+			putchar((sNum % 10) + '0');
 
-			/* End loop when 99 is reached */
-			if (fnum == 98 && sNum == 99)
+			/* do not continue once 99 is reached */
+			if (fNum == 98 && sNum == 99)
 				continue;
-
 			putchar(',');
 			putchar(' ');
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
