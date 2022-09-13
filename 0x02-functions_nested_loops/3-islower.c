@@ -8,7 +8,7 @@
  */
 int _islower(int c)
 {
-	(void) x;
+	(void) c;
 	char chr;
 	int low = 0;
 
