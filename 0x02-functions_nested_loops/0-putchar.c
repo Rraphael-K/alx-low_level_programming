@@ -9,17 +9,15 @@
  */
 int main(void)
 {
-	/*
-	 * since Strings have a length
-	 * initial the length so we may loop through it
-	 * this will allow us to display the characters as a string
-	 * and not as an array
-	 */
-	int count, length_string = strlen(string);
+	/* call the string vatiable define in the header */
+	int count, lengthOfString = strlen(string);
 
-	/*loop through until the string is displayed */
-	for (count = 0; count <= length_string; count++)
-		putchar(string(length_string));
+	/*
+	 * use putchar to display the string
+	 * must loop inorder to save each charater in the putchar function
+	 */
+	for (count = 0; count <= lengthOfString; count++)
+		putchar(string[count]);
 
 	return (0);
 }
