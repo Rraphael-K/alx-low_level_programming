@@ -10,7 +10,7 @@
 int main(void)
 {
 	/* create a string variable _putchar */
-	char chr[9] = "_putchar\n";
+	char chr[9] = "_putchar";
 
 	/* generate the wortd to put as it is in char based */
 	/* initialize a counter */
