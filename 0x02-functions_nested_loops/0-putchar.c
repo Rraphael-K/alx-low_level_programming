@@ -15,6 +15,7 @@ int main(void)
 	/* generate the wortd to put as it is in char based */
 	/* initialize a counter */
 	int count;
+
 	for (count = 0; count < 9; count++)
 		_putchar(chr[count]);
 
