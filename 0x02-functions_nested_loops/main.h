@@ -1,2 +1,2 @@
 /* declaring the string for use */
-char c, *string = "_putchar";
+char chr, *string = "_putchar\n";
