@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Description: alphabet creating
+ *
  * Return: Nothing (Void)
  */
 void print_alphabet(void)
