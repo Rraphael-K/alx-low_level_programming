@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-	/* call the string vatiable define in the header */
-	int count, lengthOfString = strlen(string);
+	/* create a string variable _putchar */
+	char chr[8] = "_putchar";
 
-	/*
-	 * use putchar to display the string
-	 * must loop inorder to save each charater in the putchar function
-	 */
-	for (count = 0; count < lengthOfString; count++)
-		putchar(string[count]);
+	/* generate the wortd to put as it is in char based */
+	/* initialize a counter */
+	int count;
+	for (count = 0; count <= 8; count++)
+		_putchar(chr[count]);
+	_putchar('\n');
 
 	return (0);
 }
