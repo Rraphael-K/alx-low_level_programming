@@ -4,10 +4,10 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
 	_putchar('c');
-	return (0);
+	return (1);
 }
