@@ -16,7 +16,7 @@ int main(void)
 	 * use putchar to display the string
 	 * must loop inorder to save each charater in the putchar function
 	 */
-	for (count = 0; count <= lengthOfString; count++)
+	for (count = 0; count < lengthOfString; count++)
 		putchar(string[count]);
 
 	return (0);
