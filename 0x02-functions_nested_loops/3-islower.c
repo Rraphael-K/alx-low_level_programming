@@ -9,6 +9,7 @@
 int _islower(int c)
 {
 	char chr;
+	c = 0;
 
 	/*check if the letters are lowercase*/
 	for (chr = 'a'; chr <= 'z'; chr++)
