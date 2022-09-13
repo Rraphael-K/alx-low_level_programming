@@ -15,7 +15,7 @@ int _islower(int c)
 	for (chr = 'a'; chr <= 'z'; chr++)
 	{ 
 		/* display 1 if the ltetter is lowercase */
-		if (low == ch)
+		if (low == chr)
 			return (1);
 	} 
 	return (0);
