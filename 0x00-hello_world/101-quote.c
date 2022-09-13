@@ -2,9 +2,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- *
- * Description: print out without any C files, unix standard
+ * main - Entry poin
  *
  * Return: Always 1 (Success)
  */
