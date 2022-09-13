@@ -6,7 +6,7 @@
  *
  * Return: 1 if is lowercase esle return 2 if is uppercase
  */
-int _islower(int c)
+int _islower()
 {
 	char chr;
 	int low = 0;
