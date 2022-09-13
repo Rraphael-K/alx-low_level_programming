@@ -8,17 +8,15 @@
  */
 int _islower(int c)
 {
-	(void) c;
 	char chr;
-	int low = 0;
 
 	/*check if the letters are lowercase*/
 	for (chr = 'a'; chr <= 'z'; chr++)
 	{ 
 		/* display 1 if the ltetter is lowercase */
-		if (low == chr)
-			low = 1;
+		if (c == chr)
+			c = 1;
 	} 
-	return (low);
+	return (c);
 
 }
