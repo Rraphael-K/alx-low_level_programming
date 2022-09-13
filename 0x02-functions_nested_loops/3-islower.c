@@ -6,7 +6,7 @@
  *
  * Return: 1 if is lowercase esle return 2 if is uppercase
  */
-int _islower()
+int _islower(int c)
 {
 	char chr;
 	int low = 0;
@@ -16,8 +16,8 @@ int _islower()
 	{ 
 		/* display 1 if the ltetter is lowercase */
 		if (low == chr)
-			return (1);
+			low = 1;
 	} 
-	return (0);
+	return (low);
 
 }
