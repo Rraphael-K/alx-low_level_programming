@@ -4,14 +4,4 @@
  */
 #include <stdio.h>
 char ch, *string = "_putchar\n";
-
-int print_alphabet()
-{
-	char count;
-
-	for (count = 'a'; count <= 'z'; count++)
-		putchar(count);
-	putchar('\n');
-
-	return (1);
-}
+void print_alphabet(void);
