@@ -3,11 +3,13 @@
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Nothing (Void)
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char chr;
 
-	return (0);
+	for (chr = 'a'; chr <= 'z'; chr++)
+		_putchar(chr);
+	_putchar('\n');
 }
