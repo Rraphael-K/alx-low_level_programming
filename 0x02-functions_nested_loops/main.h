@@ -5,7 +5,7 @@
 #include <stdio.h>
 char ch, *string = "_putchar\n";
 
-void print_alphabet(void)
+void *print_alphabet(void)
 {
 	char count;
 
