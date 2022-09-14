@@ -2,7 +2,7 @@
 /**
  * jack_bauer - Hours of the day
  *
- * Return: 
+ * Return: Nothing (void) 
  */
 void jack_bauer(void)
 {
@@ -10,9 +10,9 @@ void jack_bauer(void)
 	int hrs, min;
 
 	/* loop to create the digital watch from 00:00 am */
-	for (hrs = 0; hrs <= 23; hrs++)
+	for (hrs = 0; hrs < 24; hrs++)
 	{
-		for (min = 0; min <= 59; min++)
+		for (min = 0; min < 60; min++)
 		{
 			_putchar((hrs / 10) + '0');
 			_putchar((hrs % 10) + '0');
