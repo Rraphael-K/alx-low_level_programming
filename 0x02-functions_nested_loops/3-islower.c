@@ -4,7 +4,7 @@
  *
  * Description: Checks for lowercase characters
  *
- * Return: 1 if is lowercase esle return 2 if is uppercase
+ * Return: 1 if is lowercase esle return 0 if is uppercase
  */
 int _islower(int c)
 {
@@ -18,6 +18,5 @@ int _islower(int c)
 		/* compare with input form main function */
 		if (low == c)
 		       low = 1;
-	} 
-	return (low);
+	}return (low);
 }
