@@ -9,14 +9,15 @@
 int _islower(int c)
 {
 	char chr;
-	c = 0;
+	int low = 0;
 
 	/*check if the letters are lowercase*/
-	for (; chr <= [A-Za-z]; chr++)
+	for (chr = 'a'; chr <= 'z'; chr++)
 	{
 		/* display 1 if the ltetter is lowercase */
-		if (c == chr)
-			c = 1;
+		/* compare with input form main function */
+		if (low == c)
+		       low = 1;
 	} 
-	return (c);
+	return (low);
 }
