@@ -6,14 +6,14 @@
  */
 void times_table(void)
 {
-	int multiple, table;
+	int multiple, table, answer;
 
 	/* create the times table */
 	for (multiple = 0; multiple < 10; multiple++)
 	{
 		for (table = multiple + 1; table <= 10; table++)
 		{
-			table = multiple * table;
+			answer = multiple * table;
 
 			_putchar((table % 10) + '0');
 			_putchar(',');
