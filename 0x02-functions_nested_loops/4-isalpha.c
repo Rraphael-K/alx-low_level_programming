@@ -9,18 +9,20 @@
  */
 int _isalpha(int c)
 {
-	int upper = 0;
+	char upper, lower;
+	int letter = 0;
 
-	/*check if the letters are uppercase*/
-	/* display 1 if the ltetter is uppercase */
-	/* compare with input form main function */
-	if (c >= 'a' && c <= 'z')
+	/* since Upper cases are of a lower number, loop */
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		upper = 1;
+		for (upper = 'A'; upper <= 'Z'; upper++)
+		{
+			/*check if the letters are uppercase*/
+			/* display 1 if the ltetter is uppercase */
+			/* compare with input form main function */
+			if (c == lower || c == upper)
+				letter = 1;
+		}
 	}
-	else
-	{
-		upper = 0;
-	}
-	return (upper);
+	return (letter);
 }
