@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - See description
- * @c - user input to be compared
+ * @c: user input to be compared
  *
  * Description: Checks for lowercase characters using c
  *
