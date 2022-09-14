@@ -2,7 +2,7 @@
 /**
  * _islower - See description
  *
- * Description: Checks for lowercase characters
+ * Description: Checks for lowercase characters using c
  *
  * Return: 1 if is lowercase esle return 0 if is uppercase
  */
@@ -24,7 +24,6 @@ int _islower(int c)
 		{
 			low = 0;
 		}
-		
-		return (low);
 	}
+	return (low);
 }
