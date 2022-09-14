@@ -14,13 +14,13 @@ int _isalpha(int c)
 	/*check if the letters are uppercase*/
 	/* display 1 if the ltetter is uppercase */
 	/* compare with input form main function */
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 	{
-		upper = 0;
+		upper = 1;
 	}
 	else
 	{
-		upper = 1;
+		upper = 0;
 	}
 	return (upper);
 }
