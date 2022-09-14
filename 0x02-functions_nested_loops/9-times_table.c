@@ -15,7 +15,7 @@ void times_table(void)
 		{
 			answer = multiple * table;
 
-			_putchar((table % 10) + '0');
+			_putchar(( nswer% 10) + '0');
 			_putchar(',');
 
 			if (multiple == table)
