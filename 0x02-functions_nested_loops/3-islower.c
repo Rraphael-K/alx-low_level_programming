@@ -12,11 +12,11 @@ int _islower(int c)
 	int low = 0;
 
 	/*check if the letters are lowercase*/
-	for (chr = 'a' || chr = 'A'; chr <= 'z' || chr <= 'Z'; chr++)
+	for (chr = 'a'; chr <= 'z'; chr++)
 	{
 		/* display 1 if the ltetter is lowercase */
 		/* compare with input form main function */
-		if (low == c)
+		if (low != c)
 		       low = 1;
 	}return (low);
 }
