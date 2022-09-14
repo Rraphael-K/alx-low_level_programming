@@ -11,9 +11,9 @@ void times_table(void)
 	/* create the times table */
 	for (multiple = 0; multiple < 10; multiple++)
 	{
-		for (table = multiple +1; table < 10; table++)
+		for (table = multiple + 1; table < 10; table++)
 		{
-			_putchar(table);
+			_putchar((table % 10) + '0');
 			_putchar(',');
 
 			if (multiple == table)
