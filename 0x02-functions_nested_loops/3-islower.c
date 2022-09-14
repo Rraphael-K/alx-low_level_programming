@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - See description
+ * c - user input to be compared
  *
  * Description: Checks for lowercase characters using c
  *
@@ -16,7 +17,7 @@ int _islower(int c)
 	{
 		/* display 1 if the ltetter is lowercase */
 		/* compare with input form main function */
-		if (low != c)
+		if (low == c)
 		{
 			low = 1;
 		}
