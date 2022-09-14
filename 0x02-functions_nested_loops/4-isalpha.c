@@ -16,11 +16,11 @@ int _isalpha(int c)
 	/* compare with input form main function */
 	if (c >= 'a' && c <= 'z')
 	{
-		upper = 0;
+		upper = 1;
 	}
 	else
 	{
-		upper = 1;
+		upper = 0;
 	}
 	return (upper);
 }
