@@ -3,13 +3,31 @@
  * print_to_98 - Function
  * @n: To catch user input
  *
- * Return: Results of the calculation
+ * Return: Nothing
  */
 void print_to_98(int n)
 {
-	while (n <= 98)
-		_putchar(n);
-	_putchar(',');
-	_putchar(' ');
-	n++;
-}
+	if (n <= 98)
+	{
+		/* run through the numbers to print */
+		while (n <= 98)
+		{
+			print("%d", n);
+			if (n == 98)
+				continue;
+			printf(", ");
+			n++;
+		}
+		printf("\n");
+	}
+	else
+	{
+		while (n >= 98)
+		{
+			printf("%d", n);
+			if (n == 98)
+				continue;
+			printf(", ");
+		}
+		printf("\n");
+	}
