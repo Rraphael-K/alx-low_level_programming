@@ -1,22 +1,26 @@
 #include "main.h"
 /**
- * _islower - See description
+ * _isalpha - See description
+ * @c: user input to be compared
  *
- * Description: Checks for lowercase characters
+ * Description: Checks for Uppercase letters
  *
- * Return: 1 if is Uppercase esle return 0 if is lowercase
+ * Return: 1 if is uppercase esle return 0 if is lowercase
  */
 int _isalpha(int c)
 {
-	char chr;
-	int Upper = 0;
+	int upper = 0;
 
 	/*check if the letters are uppercase*/
-	for (chr = 'A'; chr <= 'Z'; chr++)
+	/* display 1 if the ltetter is uppercase */
+	/* compare with input form main function */
+	if (c >= 'A' && c <= 'Z')
 	{
-		/* display 1 if the tetter is Uppercase */
-		/* compare with input form main function */
-		if (Upper == c)
-		       Upper = 1;
-	}return (Upper);
+		upper = 1;
+	}
+	else
+	{
+		upper = 0;
+	}
+	return (upper);
 }
