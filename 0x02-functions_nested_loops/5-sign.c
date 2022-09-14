@@ -6,14 +6,21 @@
  */
 int print_sign(int n)
 {
-	if (n < 0)
+	/* value to be returned */
+	int num;
+
+	if (n > 0)
 	{
-		return (-1);
+		num = 1;
+		_putchar('+');
 	} else if (n == 0)
 	{
-		return (0);
+		num = 0;
+		_putchar('0');
 	} else
 	{
-		return (1);
+		num = -1;
+		_putchar('-');
 	}
+	return(num);
 }
