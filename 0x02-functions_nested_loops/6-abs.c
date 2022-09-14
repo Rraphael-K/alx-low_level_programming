@@ -10,7 +10,6 @@ int _abs(int r)
 {
 	if (r >= 0)
 		return (r);
-	else
-		/* multiply by -1 to return a negetive value */
-		return (r * -1);
+	/* multiply by -1 to return a negetive value */
+	return (r * -1);
 }
