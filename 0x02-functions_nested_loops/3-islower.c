@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - See description
- * c - user input to be compared
+ * @c - user input to be compared
  *
  * Description: Checks for lowercase characters using c
  *
@@ -12,18 +12,15 @@ int _islower(int c)
 	int low = 0;
 
 	/*check if the letters are lowercase*/
-	for (c = 'a'; c <= 'z'; c++)
+	/* display 1 if the ltetter is lowercase */
+	/* compare with input form main function */
+	if (c >= 'a' && c <= 'z')
 	{
-		/* display 1 if the ltetter is lowercase */
-		/* compare with input form main function */
-		if (c >= 'a' && c <= 'z')
-		{
-			low = 1;
-		}
-		else
-		{
-			low = 0;
-		}
+		low = 1;
+	}
+	else
+	{
+		low = 0;
 	}
 	return (low);
 }
