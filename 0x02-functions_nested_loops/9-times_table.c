@@ -11,7 +11,7 @@ void times_table(void)
 	/* create the times table */
 	for (multiple = 0; multiple <= 9; multiple++)
 	{
-		for (table = multiple + 1; table <= 9; table++)
+		for (table = 0; table <= 9; table++)
 		{
 			answer = multiple * table;
 
