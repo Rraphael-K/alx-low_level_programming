@@ -14,6 +14,7 @@ void times_table(void)
 		for (table = multiple +1; table < 10; table++)
 		{
 			_putchar(table);
+			_putchar(',');
 
 			if (multiple == table)
 				continue;
