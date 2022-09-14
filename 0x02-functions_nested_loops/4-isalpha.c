@@ -14,7 +14,7 @@ int _isalpha(int c)
 	/*check if the letters are uppercase*/
 	/* display 1 if the ltetter is uppercase */
 	/* compare with input form main function */
-	if (c < 'A' && c > 'Z')
+	if (c >= 'a' && c <= 'z')
 	{
 		upper = 0;
 	}
