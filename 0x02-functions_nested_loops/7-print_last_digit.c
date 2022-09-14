@@ -7,6 +7,14 @@
  */
 int print_last_digit(int r)
 {
-	_putchar(r);
-	return (r%10);
+	/* declare last digit placeholder */
+	int num;
+
+	if (r < 0)
+		num = -1 * (r % 10);
+	else
+		num = r % 10;
+
+	_putchar((num % 10) + '0');
+	return (num % 10);
 }
