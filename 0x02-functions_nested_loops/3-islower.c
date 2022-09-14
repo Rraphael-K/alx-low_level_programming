@@ -16,7 +16,7 @@ int _islower(int c)
 	{
 		/* display 1 if the ltetter is lowercase */
 		/* compare with input form main function */
-		if (low == c)
+		if (c >= 'a' && c <= 'z')
 		{
 			low = 1;
 		}
