@@ -13,6 +13,8 @@ void times_table(void)
 	{
 		for (table = multiple + 1; table < 10; table++)
 		{
+			table = multiple * table;
+
 			_putchar((table % 10) + '0');
 			_putchar(',');
 
