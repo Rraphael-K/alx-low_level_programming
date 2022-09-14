@@ -2,7 +2,7 @@
 /**
  * jack_bauer - Hours of the day
  *
- * Return: Nothing (void) 
+ * Return: Nothing (void)
  */
 void jack_bauer(void)
 {
