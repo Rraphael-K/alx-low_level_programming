@@ -6,17 +6,17 @@
  *
  * Return: 1 if is Uppercase esle return 0 if is lowercase
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	char chr;
-	int low = 0;
+	int Upper = 0;
 
 	/*check if the letters are uppercase*/
 	for (chr = 'A'; chr <= 'Z'; chr++)
 	{
 		/* display 1 if the tetter is Uppercase */
 		/* compare with input form main function */
-		if (low == c)
-		       low = 1;
-	}return (low);
+		if (Upper == c)
+		       Upper = 1;
+	}return (Upper);
 }
