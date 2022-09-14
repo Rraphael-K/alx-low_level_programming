@@ -9,7 +9,7 @@
  */
 int _islower(int c)
 {
-i	int low = 0;
+	int low = 0;
 
 	/*check if the letters are lowercase*/
 	for (c = 'a'; c <= 'z'; c++)
