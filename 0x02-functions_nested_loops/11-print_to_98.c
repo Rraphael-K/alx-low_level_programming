@@ -11,21 +11,25 @@ void print_to_98(int n)
 	if (n <= 98)
 	{
 		/* run through the numbers to print */
-		while (n <= 98)
+		for (; n <= 98; n++)
 		{
 			printf("%d", n);
+
+			if (n == 98)
+				continue;
 			printf(", ");
-			n++;
 		}
 		printf("\n");
 	}
 	else
 	{
-		while (n >= 98)
+		for(; n >= 98; n--)
 		{
 			printf("%d", n);
+			
+			if (n == 98)
+				continue;
 			printf(", ");
-			n--;
 		}
 		printf("\n");
 	}
