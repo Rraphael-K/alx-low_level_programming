@@ -12,5 +12,5 @@ int _abs(int r)
 		return (r);
 	else
 		/* multiply by -1 to return a negetive value */
-		return (r * -1)
+		return (r * -1);
 }
