@@ -1,4 +1,4 @@
-**Nest Loops**
+**Nested Loops**
 
-More nested loops
-Advance loops
+Working with more nested loops
+and functions

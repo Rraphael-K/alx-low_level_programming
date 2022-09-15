@@ -1,14 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * _isupper - Determine if letter is Uppercasei
- *
- * @c: Main input
- *
+ * _isupper - See below
+ * @c: main input
  * Description: Alphabet checking
  *
- * Return: 1 if upper and 0 if not
+ * Return: 1 if c is uppercase or 0 if not
  */
 
 int _isupper(int c)
@@ -20,9 +17,12 @@ int _isupper(int c)
 	{
 		if (c == upper)
 		{
-			isUpper = 1;
-			break;
+			if (c == upper)
+			{
+				isUpper = 1;
+				/* break out of the loop */
+				break;
+			}
 		}
-	}
-	return (isUpper);
+		return (isupper);
 }
