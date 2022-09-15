@@ -24,5 +24,6 @@ int _isupper(int c)
 				break;
 			}
 		}
-		return (isUpper);
+	}
+	return (isUpper);
 }
