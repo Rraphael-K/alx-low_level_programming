@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_remaining_days - Takes a date and prints how many days
@@ -14,6 +14,7 @@
 
 void print_remaining_days(int month, int day, int year)
 {
+	/* check if year is a leap year */
 	if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
 	{
 		if (month >= 2)
