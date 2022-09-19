@@ -20,8 +20,8 @@ void rev_string(char *s)
 	{
 		swapA = s[count];
 		swapB = s[length];
-		s[length++] = swapB;
-		s[count--] = swapA;
+		s[length--] = swapA;
+		s[count++] = swapB;
 	}
 	putchar('\n');
 }
