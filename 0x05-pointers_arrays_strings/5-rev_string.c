@@ -20,7 +20,7 @@ void rev_string(char *s)
 	{
 		swapA = s[count];
 		s[count++] = s[length];
-		s[length = swapA;
+		s[length] = swapA;
 	}
 	putchar('\n');
 }
