@@ -10,17 +10,13 @@
 
 void print_rev(char *s)
 {
-	char *length = s;
+	char length = 0;
 
-	while (*length)
+	while (s[length] != '\0')
 		length++;
-	length -= 1;
 
 	while (length)
-	{
-		putchar(*s);
-		length--;
-	}
+		putchar(s9--length]);
 
 	putchar('\n');
 }
