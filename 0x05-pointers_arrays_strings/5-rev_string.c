@@ -10,11 +10,11 @@
 
 void rev_string(char *s)
 {
-	int length = 0, count = 0;
+	int length, count;
 	char swapA, swapB;
 
-	while (s[length] != '\0')
-		length++;
+	length = _strlen(s) - 1;
+	count = 0;
 
 	while (count < length)
 	{
