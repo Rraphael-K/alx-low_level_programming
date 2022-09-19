@@ -23,7 +23,6 @@ void rev_string(char *s)
 		s[length--] = swapA;
 		s[count++] = swapB;
 	}
-	putchar('\n');
 }
 
 /**
