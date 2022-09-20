@@ -11,7 +11,7 @@
 void passwrd(int passwrd_len)
 {
 	/* unique charactors */
-	char list[] = "0123456789!@#$%^&*()_+,./;'\][<>?:\"}|{abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char list[] = "0123456789!@#$%^&*()_+,./;'][<>?:\"\\}|{abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int count;
 
 	/* create a new line above the passwrd generated keygen style */
@@ -25,7 +25,7 @@ void passwrd(int passwrd_len)
 
 	/* generating and printing the passord using the list */
 	for (count = 0; count < passwrd_len; count++)
-		printf("%c", list[rand() % (sizeof list - 1)]);
+		printf("%c", list[rand() % (sizeof(list) - 1)]);
 
 	putchar('\n');
 }
