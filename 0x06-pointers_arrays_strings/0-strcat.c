@@ -15,6 +15,6 @@ char *_strcat(char *dest, char *src)
 
 	/* end the string once it reaches the string end */
 	*dest = '\0';
-	return (temp)
+	return (temp);
 
 }
