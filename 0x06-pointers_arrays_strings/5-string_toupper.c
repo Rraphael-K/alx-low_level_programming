@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * string_toupper - Change lowercase to uppercase
- * @s: Integer input
  * Return: String pointer
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *)
 {
 	/* temp storage of characters-string */
-	char *sos = c;
+	char *s;
+	char *sos = s;
 
 	while (*s)
 	{
