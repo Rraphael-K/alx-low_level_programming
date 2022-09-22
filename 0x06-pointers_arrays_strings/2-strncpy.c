@@ -7,7 +7,7 @@
  * @n: Integer Input
  * Return: String pointer
  */
-char *strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	/* length of string and counter */
 	int len = 0, counter = 0;
@@ -20,6 +20,11 @@ char *strncpy(char *dest, char *src, int n)
 	}
 
 	len++;
+
+	if (n > len)
+		n = len;
+
+	src= sos;
 
 	for (; counter < n; counter++)
 		*dest++ = *src++;
