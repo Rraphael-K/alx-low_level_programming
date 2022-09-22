@@ -23,5 +23,6 @@ char *strncpy(char *dest, char *src, int n)
 
 	for (; counter < n; counter++)
 		*dest++ = *src++;
+	return (temp);
 
 }
