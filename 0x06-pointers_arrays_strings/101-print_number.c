@@ -40,7 +40,7 @@ void print_number(int n)
 		while (n / p == 0)
 			p /= 10;
 
-		while 9p >= 1)
+		while (p >= 1)
 		{
 			_putchar((n / p) + '0');
 			n %= p;
