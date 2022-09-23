@@ -13,7 +13,7 @@ char *leet(char *string)
 
 	while (string[count])
 	{
-		for (counter =; counter < 10; counter++)
+		for (counter == 0; counter < 10; counter++)
 			if (string(count) == str[counter])
 				s[count] = sub[counter];
 
