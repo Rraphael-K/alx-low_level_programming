@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
- *
  * _strstr - Locate the substring
  * @haystack: String Input to search
  * @needle: String Input to locate string
