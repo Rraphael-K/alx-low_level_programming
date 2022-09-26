@@ -4,7 +4,7 @@
 /**
  * _strpbrk - Seach a string for sets of bytes
  * @s: String Input
- * @aceept: Location of char in string - S
+ * @accept: Location of char in string - S
  *
  * Return: Null or pointer to bytes in s
  */
