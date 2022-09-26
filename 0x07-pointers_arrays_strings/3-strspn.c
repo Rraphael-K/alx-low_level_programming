@@ -7,7 +7,7 @@
  * Return: Pointer to position in c
  */
 
-unsigned in _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int f, count = 0;
 	char *strt = accept;
