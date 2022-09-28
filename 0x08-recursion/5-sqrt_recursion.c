@@ -14,7 +14,7 @@ int _sqrt(int initV, int root)
 		return (-1);
 	else if (initV * initV == root)
 		return (initV);
-	return (_sqrt(initV +1, root));
+	return (_sqrt(initV + 1, root));
 }
 
 /**
