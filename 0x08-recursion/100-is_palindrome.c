@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+
+int palid(char *s, int len);
 /**
  * _strlen_recursion - Return lengthof string
  * @s: Calculate length
