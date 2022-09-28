@@ -22,7 +22,7 @@ int _strlen_recursion(char *s)
  *
  * Return: 1 if string is palidrome or 0
  */
-int is_palidrome(char *s)
+int is_palindrome(char *s)
 {
 	int len;
 
