@@ -1,6 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * _strlen_recursion - Return lengthof string
+ * @s: Calculate length
+ *
+ * Return: String length
+ */
+int _strlen_recursion(char *s)
+{
+	if (!*s)
+	{
+		return (0);
+	}
+	return (_strlen_recursion(s + 1) + 1);
+}
+/**
  * is_palidrome - Checks if s is a palidrome string
  * @s: String Input
  *
