@@ -17,7 +17,7 @@ int _strlen_recursion(char *s)
 	return (_strlen_recursion(s + 1) + 1);
 }
 /**
- * is_palidrome - Checks if s is a palidrome string
+ * is_palindrome - Checks if s is a palidrome string
  * @s: String Input
  *
  * Return: 1 if string is palidrome or 0
