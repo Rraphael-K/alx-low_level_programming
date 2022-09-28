@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** factorial - Func to return factorial of a number
+/** 
+ * factorial - Func to return factorial of a number
  * @n: Integer Input
  *
  * Return: n
