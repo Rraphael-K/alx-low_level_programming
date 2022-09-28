@@ -2,7 +2,7 @@
 
 /**
  * _sqrt - Find square root
- * @intV: Initial value
+ * @initV: Initial value
  * @root: square root value
  *
  * Return: square root
