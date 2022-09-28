@@ -44,7 +44,7 @@ int palid(char *s, int len)
 {
 	if (len <= 1)
 		return (1);
-	else if (*s == *(s + len -1))
+	else if (*s == *(s + len - 1))
 	{
 		return (palid(s + 1, len - 2));
 	}
