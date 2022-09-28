@@ -13,7 +13,7 @@ int divisible(int n, int div)
 	if (div == n / 2)
 		return (1);
 
-	return (divisible(n, div +1));
+	return (divisible(n, div + 1));
 }
 
 /**
