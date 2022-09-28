@@ -14,7 +14,7 @@ int is_palidrome(char *s)
 	if (len <= 1)
 		return (1);
 
-	return (palid(s + 1, len - 2));
+	return (palid(s, len));
 }
 
 /**
