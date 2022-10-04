@@ -3,7 +3,7 @@
 
 /**
  * create_array - Create array of charactor and init with specific char
- * @zise: size of array
+ * @size: size of array
  * @c: Char to init array
  * Return: Pointer of array or NULL
  */
