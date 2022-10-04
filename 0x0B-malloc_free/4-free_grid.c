@@ -10,7 +10,7 @@ void free_grid(int **grid, int height)
 {
 	int count = 0;
 
-	if (grif == NULL)
+	if (grid == NULL)
 		return;
 	while (count < height)
 		free((int *)grid[count++]);
