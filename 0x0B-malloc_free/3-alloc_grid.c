@@ -28,4 +28,5 @@ int **alloc_grid(int width, int height)
 			array[column][rows] = 0;
 	return (array);
 	free(array);
+	free(array[column]);
 }
