@@ -33,7 +33,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	n_ptr = ptr;
 	if (old_size > new_size)
 		old_size = new_size;
-	for (; count < old_size; count++)
+	for (count = 0; count < old_size; count++)
 		location[count] = n_ptr[count];
 
 	free(ptr);
