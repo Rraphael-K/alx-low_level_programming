@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
+ * array_range - Create an array of integers
  * @min: Minimum starting Number
  * @max: Maximum starting Number
  *
