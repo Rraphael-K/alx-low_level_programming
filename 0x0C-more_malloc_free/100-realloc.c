@@ -29,7 +29,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 	}
 
-	n_location = malloc(new_size);
+	location = malloc(new_size);
 	n_ptr = ptr;
 	if (old_size > new_size)
 		old_size = new_size;
