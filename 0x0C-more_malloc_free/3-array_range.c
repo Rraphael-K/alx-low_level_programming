@@ -17,7 +17,7 @@ int *array_range(int min, int max)
 	diff = max - min;
 
 	n_array = malloc((diff + 1) * sizeof(int));
-	if(n_array == NULL)
+	if (n_array == NULL)
 		return (NULL);
 
 	for (; count <= diff; count++)
