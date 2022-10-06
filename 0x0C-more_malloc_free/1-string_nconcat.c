@@ -3,14 +3,14 @@
 /**
  * string_nconcat - Function that concats two strings
  * @s1: First string Input pointer
- * s2: Second String Input pointer
- *
+ * @s2: Second String Input pointer
+ * @n: Intager Input
  * Return: Pointer to concat'ed strings or NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *string;
-	unsigned int count = 0. lens1 = 0. lens2 = 0;
+	unsigned int count = 0, lens1 = 0, lens2 = 0;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -23,7 +23,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		lens2++;
 	if (n >= lens2)
 		n = lens2;
-	
 	string = malloc(lens1 + n + 1);
 	if (string == NULL)
 		return (NULL);
