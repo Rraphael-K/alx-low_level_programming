@@ -12,7 +12,8 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == NULL) //if no details for dog, return nothing
+	/* if no details for dog, return nothing */
+	if (d == NULL)
 		return;
 
 	d->name = name;
