@@ -3,7 +3,7 @@
 /**
  * struct dog - structure for a dog
  * @name: Dog name
- * @age - Dog age
+ * @age: - Dog age
  * @owner: Dog owner
  *
  * Destription: Structure for a dog
@@ -14,6 +14,6 @@ struct dog
 	float age;
 	char *owner;
 };
-struct dog _dog;
+typedef struct dog _dog;
 
 #endif /* _DOG_H_ */
