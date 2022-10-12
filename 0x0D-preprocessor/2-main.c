@@ -6,15 +6,10 @@
  *
  * Return: 0
  */
- 
- void name()
- {
- 	printf("%s\n", _FILE_);
- }
- 
-int main(int argc, char *argv)
+
+int main(void)
 {
-	name();
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
