@@ -31,6 +31,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 'f':
 				printf("%f", va_arg(list, double));
+				break;
 			case 's':
 				tempS = va_arg(list, char *);
 				if (tempS != NULL)
