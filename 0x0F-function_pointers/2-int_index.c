@@ -1,4 +1,4 @@
-#include <stdlib.>
+#include <stdlib.h>
 
 /**
  * int_index - Function to search for integers
