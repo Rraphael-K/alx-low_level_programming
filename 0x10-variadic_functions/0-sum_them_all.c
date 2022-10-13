@@ -19,7 +19,7 @@ int sum_them_all(const unsinged int n, ...)
 		return (0);
 
 	va_start(list, n);
-	for(;count < n; count++)
+	for (; count < n; count++)
 		sum += va_arg(list, int);
 
 	va_end(list);
