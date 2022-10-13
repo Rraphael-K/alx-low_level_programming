@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * op_add: Perform addition
+ * op_add - Perform addition
  * @a: Integer Input
  * @b: Integer Input
  *
@@ -16,9 +16,9 @@ int op_add(int a, int b)
 
 /**
  * op_sub - Perform subtraction
- * @a; Integer Input
+ * @a: Integer Input
  * @b: Integer Input
- * 
+ *
  * Return: sum (a - b)
  */
 int op_sub(int a, int b)
