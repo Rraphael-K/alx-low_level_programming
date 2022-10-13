@@ -9,7 +9,7 @@
  *
  * Return: All parameters
  */
-int sum_them_all(const unsinged int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list list;
 	unsigned int count = 0;
