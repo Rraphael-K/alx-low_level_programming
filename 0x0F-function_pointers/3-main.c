@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
 	/* function argument assignement */
-	int (*func)(int)(int);
+	int (*func)(int, int);
 
 	/* if error, retuyrn 98 */
 	if (argc != 4)
