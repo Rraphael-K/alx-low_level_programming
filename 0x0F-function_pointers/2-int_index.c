@@ -8,7 +8,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	int count;
 
 	/* if not values, return -1 */
-	if (cmp == NULL || array == NUL)
+	if (cmp == NULL || array == NULL)
 		return (-1);
 
 	if (size <= 0)
