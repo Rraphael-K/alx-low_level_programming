@@ -13,14 +13,13 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	/* declare counter */
-	unsigned int count = 0;
+	unsigned int count;
 	/* if array has no elements and the function is empty */
-	/* return nothing */
 	if(array == NULL || action == NULL)
 		return;
 
 	/* interate through array */
-	for(; count < size; count++)
+	for(count = 0; count < size; count++)
 		/* place elements in the array */
 		action(array[count]);
 }
