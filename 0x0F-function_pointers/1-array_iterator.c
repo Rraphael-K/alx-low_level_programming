@@ -15,9 +15,8 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	/* declare counter */
 	unsigned int count;
 	/* if array has no elements and the function is empty */
-	if(array == NULL || action == NULL)
+	if(action == NULL || array == NULL)
 		return;
-
 	/* interate through array */
 	for(count = 0; count < size; count++)
 		/* place elements in the array */
