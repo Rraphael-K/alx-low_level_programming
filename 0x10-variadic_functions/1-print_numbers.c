@@ -9,7 +9,7 @@
  *
  * Return: Interger inputs
  */
-void print_numbers(const cahr *seperator, const unsigned int n, ...)
+void print_numbers(const char *seperator, const unsigned int n, ...)
 {
 	va_list list;
 	unsigned int counter = 0;
