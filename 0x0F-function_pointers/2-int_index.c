@@ -23,7 +23,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	/* iterate through array and assign elements */
 	for (count = 0; count < size; count++)
-		if(cmp(array[count]))
+		if (cmp(array[count]))
 			return (count);
 
 	if (count == size)
