@@ -13,13 +13,13 @@ int (*get_op_func(char *s))(int, int)
 		{"*", op_mul},
 		{NULL, NULL}
 	};
-	int count = 0;
+	int i = 0;
 
-	while (count < 5)
+	while (i < 5)
 	{
-		if (*(ops[count]).op == *s && *(s + 1) == '\0')
-				return (ops[count].f);
-		count++;
+		if (*(ops[i]).op == *s && *(s + 1) == '\0')
+				return (ops[i].f);
+		i++;
 	}
 	return (NULL);
 }
