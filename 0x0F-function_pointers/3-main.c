@@ -31,6 +31,6 @@ int main(int argc, char *argv[])
 	}
 
 	/* perform operations */
-	printf("%d\n", fucn(atoi(argv[1], atoi(argv[3]))));
+	printf("%d\n", fucn(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
