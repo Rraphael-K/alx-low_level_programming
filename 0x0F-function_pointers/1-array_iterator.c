@@ -1,5 +1,4 @@
 #include <stdlib>
-#include <stdio.h>
 
 /**
  * array_iterator - Execute function given as parameter
