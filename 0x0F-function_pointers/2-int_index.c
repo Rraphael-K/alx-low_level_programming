@@ -1,6 +1,13 @@
 #include <stdlib.>
 
-
+/**
+ * int_index - Function to search for integers
+ * @array: Pointer to array
+ * @size: Size of array
+ * @cmp: Compare elements though array
+ *
+ * Return: -1 if elements matches or size <= 0
+ */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
