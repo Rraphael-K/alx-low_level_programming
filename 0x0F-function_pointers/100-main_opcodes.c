@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	count = 0;
 	if (bytes > 0)
 	{
-		while (count < (bytes -1))
+		while (count < (bytes - 1))
 			printf("%02hhx ", function_ptr[count++]);
 		printf("%hhx\n", function_ptr[count]);
 	}
