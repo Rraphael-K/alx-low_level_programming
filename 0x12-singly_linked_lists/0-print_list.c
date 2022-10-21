@@ -2,6 +2,7 @@
 
 /**
  * print_list - Func to add variables to struct list
+ * @h: Singly linked list
  *
  * Return: Num of nodes (size_t)
  */
