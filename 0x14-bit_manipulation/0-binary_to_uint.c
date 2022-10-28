@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary_to_unit - Convert binary num to usigned int
+ * binary_to_uint - Convert binary num to usigned int
  * @b: Binary
  *
  * Return: Unsigned int
